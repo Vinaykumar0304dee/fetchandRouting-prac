@@ -1,4 +1,4 @@
-In this project, let's perform **Fetch and Routing** by applying the concepts we have learned till now.
+In this project, I perform **Fetch and Routing** by applying the concepts I have learned till now.
 
 ### Refer to the image below:
 
@@ -8,55 +8,6 @@ In this project, let's perform **Fetch and Routing** by applying the concepts we
 </div>
 <br/>
 
-### Design Files
-
-<details>
-<summary>Click to view</summary>
-
-- [Extra Small (Size < 576px) and Small (Size >= 576px)](https://assets.ccbp.in/frontend/content/react-js/fetch-and-routing-practice-sm-outputs.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Home](https://assets.ccbp.in/frontend/content/react-js/fetch-and-routing-practice-lg-blog-list-output.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Blog Item Details](https://assets.ccbp.in/frontend/content/react-js/fetch-and-routing-practice-lg-blog-item-output.png)
-
-</details>
-
-### Set Up Instructions
-
-<details>
-<summary>Click to view</summary>
-
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
-</details>
-
-### Completion Instructions
-
-<details>
-<summary>Functionality to be added</summary>
-<br/>
-
-The app must have the following functionalities
-
-- When the app is opened, Home Route should be displayed
-- When the Home Route is opened,
-
-  - Make HTTP GET request to the **blogsApiUrl**
-  - **_loader_** should be displayed while fetching the data
-  - After fetching the data, the list of blogs should be displayed
-
-- When a blog item in Home Route is clicked,
-  - Page should be navigated to the Blog Item Details Route with the URL `/blogs/:id`
-- When the Blog Item Details Route is opened,
-  - Make HTTP GET request to the **blogItemDetailsApiUrl** with the blog id to get the details of the blog
-    - Example: `https://apis.ccbp.in/blogs/2`
-  - **_loader_** should be displayed while fetching the data
-  - After fetching the data, the details of the blog should be displayed
-
-</details>
-
-<details>
-
-<summary>API Requests & Responses</summary>
-<br/>
 
 **blogsApiUrl**
 
@@ -165,31 +116,3 @@ Use these files to complete the implementation:
   ```
 
 </details>
-
-### Resources
-
-<details>
-<summary>Colors</summary>
-
-<br/>
-
-<div style="background-color: #8e8e8e; width: 150px; padding: 10px; color: white">Hex: #8e8e8e</div>
-<div style="background-color: #000000; width: 150px; padding: 10px; color: white">Hex: #000000</div>
-<div style="background-color: #d3d3d3; width: 150px; padding: 10px; color: white">Hex: #d3d3d3</div>
-<div style="background-color: #2f4f4f; width: 150px; padding: 10px; color: white">Hex: #2f4f4f</div>
-
-</details>
-
-<details>
-<summary>Font-families</summary>
-
-- Roboto
-
-</details>
-
-> ### _Things to Keep in Mind_
->
-> - All components you implement should go in the `src/components` directory.
-> - Don't change the component folder names as those are the files being imported into the tests.
-> - **Do not remove the pre-filled code**
-> - Want to quickly review some of the concepts you’ve been learning? Take a look at the Cheat Sheets.
