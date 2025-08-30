@@ -1,0 +1,36 @@
+/* Write your CSS code here */
+.blog-details {
+  width: 80%;
+  margin: auto;
+}
+
+.blog-details-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+}
+.blog-title {
+  font-size: 26px;
+  font-family: Roboto;
+  font-weight: bold;
+  text-align: center;
+}
+.blogdetail-avatar-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.blog-author {
+  color: #2f4f4f;
+  font-family: Roboto;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.blog-content {
+  font-family: Roboto;
+  font-size: 16px;
+  color: #2f4f4f;
+}
+.item-img {
+  width: 100%;
+}
